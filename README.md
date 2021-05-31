@@ -103,7 +103,7 @@ Spring Boot provides a default configuration properties file called as [applicat
 Before using our database implementation instead of using our stub implementation, we need to prepare our table
 and initial entries within the database. We have two things to do;
 
-1. We need to create a CONSULTANT table to store our consultant model, defined in [scripts.sql] 
+1. We need to create a bank schema and tables  to store our data, defined in [scripts.sql] 
 
 Now our database is ready to go!
 
