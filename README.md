@@ -86,19 +86,19 @@ database but how are we going to specify the running port of the Tomcat containe
 connection pool parameters and so on?
 
 Spring Boot provides a default configuration properties file called as [application.properties]
-jwt.secret=jwttest
-spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
-spring.datasource.username=postgres
-spring.datasource.password=postgres
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.show-sql=true
+- jwt.secret=jwttest
+- spring.datasource.url=jdbc:postgresql://localhost:5432/postgres 
+- spring.datasource.username=postgres 
+- spring.datasource.password=postgres 
+- spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect 
+- spring.jpa.show-sql=true 
 
-# Hibernate ddl auto (create, create-drop, validate, update)
-spring.jpa.hibernate.ddl-auto = update
+- Hibernate ddl auto (create, create-drop, validate, update)
+- spring.jpa.hibernate.ddl-auto = update 
 
 
 
-6 H2 Database Preparation
+6 Postgres Database Preparation
 --------------------------
 Before using our database implementation instead of using our stub implementation, we need to prepare our table
 and initial entries within the database. We have two things to do;
