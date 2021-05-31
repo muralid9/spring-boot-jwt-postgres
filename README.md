@@ -1,1 +1,1 @@
-# spring-boot-jwt-jpa
+# spring-boot-jwt-postgres
