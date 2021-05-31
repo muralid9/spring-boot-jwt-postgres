@@ -110,63 +110,55 @@ Now our database is ready to go!
 
 
 7 Sending And Receiving JSONs With Postman
--------------------------------------------
-1.
+--------------------------------------------
+```
 http://localhost:8080/register
-
 {
 	"employeeName":"Murali1",
 	"emailId":"muralid9@gmail.com",
-	"contactDetails":"9966275555",
+	"contactDetails":"9886098860",
 	"username":"login",
 	"password":"password"
 }
-2.
 http://localhost:8080/authenticate
 {	"username":"login1",
 	"password":"password"
 }
-3.
 http://localhost:8080/createCustomer
 {
-    "customername":"test",
+    	"customername":"test",
 	"customerEmail":"test@gmail.com",
-    "contactDetails":"9885098850",
+	"contactDetails":"9885098850",
 	"address":"Nizampet",
 	"kycId":"999786789",
 	"balance":"100000",
 	"interestRate":"3.5",
 	"accountType":"savings"
 }
-4.
 http://localhost:8080/createBankAccount
 {
-    "custmoreId":"6",
+    	"custmoreId":"6",
 	"balance":"6000",
 	"interestRate":"7.5",
 	"accountType":"salary"
 }
-5.
 http://localhost:8080/transferMoney
-
 {
 	"sourceAccount":"6",
 	"destinationAccount":"7",
 	"amount":"150.00"
 }
-6.
 http://localhost:8080/deleteAccount
 {
 	"bankAccountNumber":"4"
 }
-7.
 http://localhost:8080/downloadAccountStatement
 {
 	 "accountNumber":"5",
 	  "fromDate":"2021-05-15",
 	  "toDate":"2021-05-30"
 }
-
+```
 
 8 Building And Running The Standalone Application
 ---------------------------------------------------
